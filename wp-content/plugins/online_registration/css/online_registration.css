@@ -1,0 +1,55 @@
+.online_reg_form,.event_manage_wrap{width:99%;margin-top:20px}
+.online_reg_form{font-size:14px}
+.online_reg_form .event_title{font-size:16px;font-weight:bold;margin:0 0 10px;text-align:center;color:#900}
+.online_reg_form .reg_message p{font-size:13px;font-weight:bold;margin:0 0 10px}
+.online_reg_form .reg_text{font-size:12px;font-weight:bold}
+.online_reg_form #reg_form,.online_reg_form #search_results{margin-top:20px}
+.online_reg_form .reg_step{font-size:16px;font-weight:bold;margin:20px 0 10px 0;color:#900}
+.online_reg_form .reg_step_sml{font-size:14px;font-weight:bold;margin:10px 0;color:#900}
+.online_reg_form input,.online_reg_form textarea,.online_reg_form select{margin:7px}
+.online_reg_form textarea{resize:none;width:80%}
+.online_reg_form .lbl_first{text-align:right;font-size:12px;width:30%;display:inline-block}
+.online_reg_form .lbl_last{text-align:left;width:65%;display:inline-block}
+.online_reg_form .lbl_last select{width:165px;border:2px solid #d4d0ba;font-family:inherit;padding:5px}
+.online_reg_form .dd-details{padding:10px}
+.online_reg_form .star:after{content:"*";color:red}
+.add-new-h2.new-reg-btn,.add-new-h2.new-reg-btn:hover{background:#ed6a31;background:-webkit-linear-gradient(top,#ed6a31 0,#e55627 100%);background:linear-gradient(to bottom,#ed6a31 0,#e55627 100%);color:#fff;outline:0;text-shadow:none}
+.reg_template{max-width:100%}
+.reg_template .flow_form{width:95%;margin:0 auto}
+.reg_template .flow_elements{text-align:right;min-width:40%;display:inline-block}
+#all-registrations{margin-top:20px}
+.link-alt{cursor:pointer;color:#21759b}
+.ui-widget,.search-box{font-size:12px}
+.wp-list-table th{font-weight:600}
+.wp-list-table .reg_step_sml{padding:5px;margin:0}
+div.pagination{float:right;padding:3px;margin:3px}
+div.pagination ul{border:0;margin:0;padding:0}
+div.pagination ul li{font-size:12px;display:inline-block;list-style:none}
+div.pagination a{padding:2px 5px 2px 5px;margin:2px;border:1px solid #e3e3e3;text-decoration:none;color:#21759b}
+div.pagination a:hover,div.pagination a:active{border:1px solid #e3e3e3;color:#21759b}
+div.pagination li.current{padding:2px 5px 2px 5px;margin:2px;border:1px solid #e3e3e3;font-weight:bold;background-color:#21759b;color:#fff}
+#new_link{border:1px solid #dfdfdf;padding:5px;margin-bottom:10px}
+.wiki-lightbox{z-index:121045;display:block;background-color:#EEE;position:fixed;border-radius:5px;top:100px;max-width:80%}
+.wiki-lightbox-cover{position:fixed;top:0;left:0;width:100%;height:100%;background-color:black;background-position:fixed;z-index:121040;-moz-opacity:.8;opacity:.80;filter:alpha(opacity=80)}
+.wiki-lightbox .top-head{border-bottom:1px solid #d0d0d0;background:transparent;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0;-webkit-box-shadow:inset 0 0 20px rgba(0,0,0,0.15);-moz-box-shadow:inset 0 0 20px rgba(0,0,0,0.15);box-shadow:inset 0 0 20px rgba(0,0,0,0.15);float:left;width:100%}
+.top-head-msg{font-size:20px;font-weight:normal;margin:0;text-shadow:0 1px 0 white;padding:10px 0 5px 30px}
+.wiki-lightbox .wiki-display{float:left;width:100%}
+.wiki-spinner{width:200px;margin-left:30%;z-index:150000;position:absolute}
+.wiki-white{background-color:#fff;border-radius:0 0 6px 6px;padding:10px;overflow-y:auto;height:auto}
+.wiki-white p{padding:10px;font-size:14px;font-weight:bold}
+.wiki-white button{background:linear-gradient(to bottom,#e05d22 0,#d94412 100%);border:0;border-bottom:3px solid #b93207;border-radius:20px;color:#fff;display:inline-block;padding:11px 24px 10px;text-decoration:none;cursor:pointer}
+.ui-timepicker-div .ui-widget-header{margin-bottom:8px}
+.ui-timepicker-div dl{text-align:left}
+.ui-timepicker-div dl dt{float:left;clear:left;padding:0 0 0 5px}
+.ui-timepicker-div dl dd{margin:0 10px 10px 45%}
+.ui-timepicker-div td{font-size:90%}
+.ui-tpicker-grid-label{background:0;border:0;margin:0;padding:0}
+.ui-timepicker-rtl{direction:rtl}
+.ui-timepicker-rtl dl{text-align:right;padding:0 5px 0 0}
+.ui-timepicker-rtl dl dt{float:right;clear:right}
+.ui-timepicker-rtl dl dd{margin:0 45% 10px 10px}
+.update-nag{display:none}
+@media screen and (max-width:800px){
+.reg_template .flow_elements{display:block}
+.online_reg_form .lbl_first{width:32%}
+}
